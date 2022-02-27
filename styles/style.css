@@ -1,0 +1,134 @@
+/* Global Styles
+*********************/
+:root {
+    --body-height: 100vh;
+    --header-height: 20vh;
+    font-family: 'Neuton', serif;
+    font-family: 'Marcellus', serif;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    height: var(--body-height);
+    align-items: stretch
+}
+.wrapper {
+    padding: 0 40px;
+}
+
+/* Sidebar Section
+*********************/
+.sideBar {
+    display: none;
+    /* position: fixed; */
+    /* width: 45vw; */
+    background: center / cover url(../images/pexels-ann-h-1762851.jpg);
+    height: 100vh;
+}
+.sideBar-brand {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 10px;
+    height: var(--header-height);
+    width: 100%;
+}
+.sideBar-brand-logo {
+    width:20%;
+    
+}
+.sideBar-brand-name {
+    font-size: calc(.3rem +  2vw);
+    color: #e5e4df;
+}
+
+.photo-credit {
+    margin-bottom: 40px;
+}
+/* Main Section
+*********************/
+main {
+    /* background: linear-gradient(to bottom left, #59b0ea , white); */
+    width: 100%;
+}
+
+header, footer {
+    
+    height: var(--header-height);
+}
+
+header {
+    display: none;
+    
+}
+
+footer {
+    flex-grow: 1;
+}
+
+/* Sign Up Form
+*********************/
+#signUpForm {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-bottom: 0;
+    
+}
+
+#signUpForm  h2{
+    color: #0357aa;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    align-items: stretch;
+}
+
+#signUpForm label {
+    width: 103px;
+    font-weight: bold;
+    font-size: .8rem;
+    color: #156eca;
+    margin-right: 10px;
+}
+
+#signUpForm input {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid #156eca;
+}
+
+#signUpForm input:focus {
+    outline: 1px solid #0357aa;
+}
+
+.signUp-image {
+    display: none;
+}
+
+.btn-submit {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #156eca;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.btn-submit:hover {
+    background-color: #0357aa;
+}

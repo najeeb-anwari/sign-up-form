@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Neuton:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <aside class="sideBar">
+        <div class="sideBar-brand">
+            <img class="sideBar-brand-logo" src="images/odin-lined.png" alt="Odin logo">
+            <span class="sideBar-brand-name">ODIN</span>
+        </div>
+        <div class="photo-credit">Photo by <a href="https://www.pexels.com/@ann-h-45017?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Ann H</a> from <a href="https://www.pexels.com/photo/yellow-and-and-blue-colored-pencils-1762851/">Pexels</a></div>
+    </aside>
+    
+    <main>
+        <header class="wrapper"></header>
+        <form action="#" method="post" id="signUpForm">
+            <div class="form-wrap">
+                <div class="grid">
+                    <h2>Let's do this!</h2>
+                    <div class="input-group">
+                        <label for="first_name">First Name</label>
+                        <input type="text" name="first_name" id="first_name" placeholder="Enter your first name">
+                    </div>
+            
+                    <div class="input-group">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" name="last_name" id="last_name" placeholder="Enter your last name">
+                    </div>
+                        
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email">
+                    </div>
+                        
+                    <div class="input-group">
+                        <label for="phone_number">Phone Number</label>
+                        <input type="text" name="phone_number" id="phone_number" placeholder="Enter your phone number">
+                    </div>
+                        
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Create a password">
+                    </div>
+                        
+                    <div class="input-group">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" name="confirm_password" id="confirm_password" placeholder="Re-write the password">
+                    </div>
+                    
+                </div>
+              
+                <img class="signUp-image" src="images/undraw_mobile_login_re_9ntv.svg" alt="">
+            </div>
+
+        </form>
+        
+        <footer class="wrapper">    
+            <button class="btn-submit" type="submit">Create Account</button>        
+            <div>
+                Already Have an Acccount? <a href="">Log in</a>
+            </div>
+            
+        </footer>
+        
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
