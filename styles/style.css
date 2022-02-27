@@ -41,11 +41,14 @@ body {
 }
 .sideBar-brand-logo {
     width:20%;
-    
+    filter: drop-shadow(4px 2px 0px black);
 }
 .sideBar-brand-name {
     font-size: calc(.3rem +  2vw);
     color: #e5e4df;
+    text-shadow: 
+               1px 1px  black,
+               2px 2px  black;
 }
 
 .photo-credit {
